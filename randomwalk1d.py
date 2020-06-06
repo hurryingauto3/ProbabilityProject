@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
   
 # Probability to move up or down 
-prob = [0.05, 0.95]   
+prob = [0.5, 0.5]   
   
 # statically defining the starting position 
 start = 2  
