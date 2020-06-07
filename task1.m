@@ -1,8 +1,8 @@
-function plott = task1(num_tries, start, right_prob, left_prob)
-    num = num_tries;
-    sum = start;
-    plott(1) = start;
-    step_direction = rand(num, 1);
+function plott = task1(steps, start, right_prob, left_prob)
+    num = steps; %number of steps
+    sum = start; %starting position of the person
+    plott(1) = start; %the steps-position plot
+    step_direction = rand(num, 1); %random number which decides his movement
     
     for i = 2:num
         if step_direction(i) < left_prob
