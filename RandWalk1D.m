@@ -10,7 +10,7 @@ function plott = task1(num_tries, start, right_prob, left_prob)
         else
             sum = sum + 1;
         end
-        plott(i) = sum;
+            plott(i) = sum;
     end
     
     figure (1);
