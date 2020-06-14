@@ -31,12 +31,15 @@ function task3(steps, startx, starty, prob_nostep, prob_halfstep, prob_left, pro
     end
     
     figure (1);
-    c = plot(plottx, plotty, '-rx');
+    c = plot3(plottx, plotty, 1:num, '-rx');
     set(c, 'color', 'red');
     grid on;
     numm = num2str(num);
     str1 = 'person doing randomwalk in 2 dimension (n = ';
     str2 = ' steps)';
     result = [str1 numm str2];
+    xlabel('x-axis');
+    ylabel('y-axis');
+    zlabel('time');
     title(result);
 end
