@@ -19,12 +19,24 @@ function task3(steps, startx, starty, prob_nostep, prob_halfstep, prob_left, pro
         end
         if step_direction(i) < prob_left
             sumx = sumx - step;
+            if ((sumx-startx)^2 + (sumy-starty)^2)^(1/2) > 100
+                sumx = sumx + 2*step;
+            end
         elseif step_direction(i) < prob_left + prob_right
             sumx = sumx + step;
+            if ((sumx-startx)^2 + (sumy-starty)^2)^(1/2) > 100
+                sumx = sumx - 2*step;
+            end
         elseif step_direction(i) < prob_left + prob_right + prob_down
             sumy = sumy - step;
+            if ((sumx-startx)^2 + (sumy-starty)^2)^(1/2) > 100
+                sumy = sumy + 2*step;
+            end
         else
             sumy = sumy + step;
+            if ((sumx-startx)^2 + (sumy-starty)^2)^(1/2) > 100
+                sumy = sumy - 2*step;
+            end
         end
         plottx(i) = sumx;
         plotty(i) = sumy;
