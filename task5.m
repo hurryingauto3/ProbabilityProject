@@ -9,7 +9,7 @@ function task5(steps, startx, starty)
     
     %step_direction = randi([1,4],1,num)
     R_values = rand(num, 1);
-    Theta_values = 2*pi.*rand(num,1);
+    Theta_values = 2*pi*rand(num,1);
     for i = 2:num
         if (sumx^2+sumy^2)^(1/2) > 100
             sumx = sumx + R_values(i)*cos(Theta_values(i)+pi);
@@ -24,15 +24,16 @@ function task5(steps, startx, starty)
     end
     
     figure (1);
-    c = plot3(plottx, plotty, 1:num, '-rx');
-    set(c, 'color', 'red');
-    grid on;
-    numm = num2str(num);
-    str1 = 'person doing randomwalk in 2 dimension (n = ';
-    str2 = ' steps)';
-    result = [str1 numm str2];
-    xlabel('x-axis');
-    ylabel('y-axis');
-    zlabel('time');
-    title(result);
+    f = plot(1:num, R_values);
+%     c = plot3(plottx, plotty, 1:num, '-rx');
+%     set(c, 'color', 'red');
+%     grid on;
+%     numm = num2str(num);
+%     str1 = 'person doing randomwalk in 2 dimension (n = ';
+%     str2 = ' steps)';
+%     result = [str1 numm str2];
+%     xlabel('x-axis');
+%     ylabel('y-axis');
+%     zlabel('time');
+%     title(result);
 end
