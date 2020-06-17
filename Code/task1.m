@@ -1,4 +1,4 @@
-function plott = task1(num_tries, start)
+function sum = task1(num_tries, start)
     num = num_tries;
     sum = start;
     plott(1) = start;
@@ -21,6 +21,5 @@ function plott = task1(num_tries, start)
     grid off;
     title('Random Walk in 1 Dimension')
     ylabel('steps');
+
 end
-
-
