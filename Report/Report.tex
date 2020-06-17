@@ -1,7 +1,12 @@
 \documentclass{article}
 
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2.5cm]{geometry}
+
 \title{Probability Final Project}
-\author{Ali Hamza - Maham Shoaib - Hassan Naseem}
+\author{Ali Hamza $|$ Maham Shoaib $|$ Hassan Naseem}
 \date{\today}
 
 \begin{document}
@@ -9,6 +14,27 @@
 
 \section{Tasks}
 \subsection{Task 1}
+In this task we took a few assumptions to model the 1 dimensional random walk. Since there 
+were only 3 possible movements: right, left, or no movement. We chose to model the walk using a 
+uniform distribution. This was done by generating an array of random integers from the set $\{1,2,3\}$, similar to 
+throwing a 3 sided die.
+\begin{itemize}
+    \item On 1, the particle moved right 1 unit
+    \item On 2, the particle moved left 1 unit
+    \item On 3, the particle did not move
+\end{itemize}
+Upon running the code by varying the number of steps the particle takes the following graphs
+were produced.
+
+\begin{multicols}{3}[\columnsep=3cm]
+    \includegraphics[scale=0.3]{r1d100.png}
+    \columnbreak
+    \includegraphics[scale=0.3]{r1d100000.png}
+    \columnbreak
+    \includegraphics[scale=0.3]{r1d1000000.png}
+    \end{multicols}
+\captionof{figure}{Steps = 100, 100000, 1000000 from Left to Right}
+
 \subsection{Task 2}
 \subsection{Task 3}
 \subsection{Task 4}
