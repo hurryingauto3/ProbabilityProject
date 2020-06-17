@@ -3,7 +3,7 @@ function task1Avg()
     avgsum = 0;
     sdsum = 0;
     for i = 1:1000
-    sums(i) = task1(10000, 0);
+    sums(i) = task1(100, 0);
     end
     
     for i = 1:1000
@@ -18,7 +18,12 @@ function task1Avg()
     
     sd = (sdsum/1000)^(1/2);
     
-    plot(1:1000, sums,'-rx')
+    figure (1);
+    c = plot(1:1000, sums, '-r');
+    title('Final distances of 1000 Random Walks');
+    xlabel('Trials Number');
+    ylabel('Final Distance');
+    
     
     disp(avg);
     disp(sd);

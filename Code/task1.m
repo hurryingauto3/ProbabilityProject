@@ -15,11 +15,11 @@ function sum = task1(num_tries, start)
         plott(i) = sum;
     end
     
-    figure (1);
-    c = plot(plott, 1:num, '-rx');
-    set(c, 'color', 'blue');
-    grid off;
-    title('Random Walk in 1 Dimension')
-    ylabel('steps');
+%     figure (1);
+%     c = plot(plott, 1:num, '-rx');
+%     set(c, 'color', 'blue');
+%     grid off;
+%     title('Random Walk in 1 Dimension')
+%     ylabel('steps');
 
 end
