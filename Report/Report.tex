@@ -48,9 +48,15 @@ It is worth noting, however, that this graph is also subject to change based on 
 it seems to be stable on multiple executions. There is some deviation though. 
 %Include graph here
 \subsection{Task 3}
+In order to determine the step size and the orientation, we assumed that the step size is a discreet random variable between {0, 0.5, 1} and orientation is a discreet random variable between {0, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$}. We have used directional words such as right referring to orientation of 0 as well as $2\pi$ and up referring to $\frac{\pi}{2}$, etc. 
+\\\\
+We have used an algorithm similar to those used in the previous tasks to determine the probability of a step size and orientation being used. In the case of the particle exceeding the 100 $unit^{2}$ region, the particle just reverses the direction that it was moving and bounces back into the region. The trajectory is then plotted on a 3 dimensional plane.
 \subsection{Task 4}
+For this section we have repeated a similar procedure to that used in Task 1 except that in this case the step size is a continuous random variable between 0-1 determined by the built-in \textbf{randi} function that chooses a a number within the range with a uniform probability distribution.
 \subsection{Task 5}
+This section is done in a similar manner to that of Task 3, however in this case both the step size and orientation are continuous random variables between 0-1 and 0-2$\pi$ respectively. The variables were chosen in a similar manner to those in Task 4 by employing the \textbf{randi} function.
 \subsection{Task 7}
+In this task we have used a similar algorithm to that in Task 3 with the only exception that the orientation is a continuous random variable between 0-2$\pi$ which is chosen in a similar manner to that in Task 4 by employing the \textbf{randi} function. 
 \subsection{Task 8}
 \section{Bibliography}
 
