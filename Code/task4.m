@@ -1,4 +1,4 @@
-function plott = task4(steps, start, right_prob, left_prob)
+function plott = task4(steps, start, left_prob, no_step_prob)
     num = steps; %number of steps
     sum = start; %starting position of the person
     plott(1) = start; %the steps-position plot
@@ -6,7 +6,9 @@ function plott = task4(steps, start, right_prob, left_prob)
     step_size = rand(num, 1);
     
     for i = 2:num
-        if step_direction(i) < left_prob
+        if step_direction(i) < no_step_prob
+            sum = sum;
+        elseif step_direction(i) < no_step_prob + left_prob
             sum = sum - step_size(i);
         else
             sum = sum + step_size(i);
