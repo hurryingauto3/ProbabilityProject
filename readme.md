@@ -1,6 +1,7 @@
+<p align="center">
 # MATH 300 Final Project
 #### Ali Hamza | Maham Shoaib | Hassan Naseem
-
+</p>
 
 Tasks
 =====
@@ -13,7 +14,9 @@ $task1(steps,start,leftprob,stopprob)$. The function takes steps using
 an algorithm that makes use of an algorithm that can be explained using
 the following diagram.
 
+<p align="center">
 ![alt text](https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task1prob.png)
+</p>
 
 Let us assume
 
@@ -99,6 +102,12 @@ by employing the **randi** function.
 Task 8
 ------
 
+Task 8 had many similar attributes to the task 2. Therefore, we used a similar approach to solve this problem. Using the random walk algorithm in task 5, we generated the random walk data
+of two particles and stored the data in a 3 dimensional array. Where we stored the **(x,y)** coordinates at each step of each particle. This allowed us to run a simulation to find an average step at which the euclidean distance of the two particles was $\leq 1$. Then we further ran a simulation to find multiple expected aforementioned steps. This allowed us to model a distribution of the means. This produced a trend the show cased the mean variance in the means of the step at which the two particles have distance of 1 unit or less. This can be visualized in the following graph
+
+<p align="center">
+![alt text]
+</p>
 Bibliography
 ============
 1.  <https://www.mathworks.com/help/matlab/math/multidimensional-arrays.html>

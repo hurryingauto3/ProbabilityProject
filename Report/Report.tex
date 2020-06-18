@@ -59,10 +59,20 @@ This section is done in a similar manner to that of Task 3, however in this case
 \subsection{Task 7}
 In this task we have used a similar algorithm to that in Task 3 with the only exception that the orientation is a continuous random variable between 0-2$\pi$ which is chosen in a similar manner to that in Task 4 by employing the \textbf{randi} function. 
 \subsection{Task 8}
+Task 8 had many similar attributes to the task 2. Therefore, we used a similar approach to solve this problem. Using the random walk algorithm in task 5, we generated the random walk data
+of two particles and stored the data in a 3 dimensional array. Where we stored the $(x,y)$ coordinates at each step of each particle. This allowed us to run a simulation to find an average 
+step at which the euclidean distance of the two particles was $\leq 1$. Then we further ran a simulation to find multiple expected aforementioned steps. This allowed us to model a distribution 
+of the means. This produced a trend the show cased the mean variance in the means of the step at which the two particles have distance of 1 unit or less. This can be visualized in the following 
+graph
+\begin{center}
+    \includegraphics[scale = 0.4]{Meandist.png}
+\end{center}
+\newpage
 \section{Bibliography}
 
 \begin{enumerate}
     \item \url{https://www.mathworks.com/help/matlab/math/multidimensional-arrays.html}
+    \item \url{https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.html}
 \end{enumerate}
 
 \section{Extras}

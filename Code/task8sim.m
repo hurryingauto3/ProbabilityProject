@@ -16,7 +16,7 @@ function task8sim(sim,sim_internal, steps,a_x, a_y, b_x, b_y)
     xlabel('Simulation Number');
     ylabel('Mean of Step at which 2 Particles are within 1 unit of distance');
     mean_mean = num2str(mean_mean);
-    str1 = 'Mean Steps of 1 Unit Distance when starting from a distance of ';
+    str1 = 'Expected Steps of Proximity When Starting from a Distance of ';
     str2 = ' with a deviation of ';
     result = [str1 euc_dist str2 mean_mean];
     title(result);
