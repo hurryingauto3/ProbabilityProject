@@ -1,4 +1,4 @@
-function avgstep = task1avg(start, steps, left_prob, no_step_prob, simulations, step_needed)
+function avgstep = task1Avg(start, steps, left_prob, no_step_prob, simulations, step_needed)
     avgplott(1) = start;
     all_simulations = zeros(simulations, steps);
     for i = 1:simulations
