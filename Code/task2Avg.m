@@ -41,6 +41,7 @@ function avgmeeting_step = task2Avg(start_1, distance, steps, left_prob, no_step
 %     avgmeeting_step = sum_meeting_step/simulations;
 
     avgmeeting_step = mean(avgmeeting_plott,'all');
+    
     figure (1);
     c = plot(1:steps, avgplott_1, '-rx');
     hold on;
