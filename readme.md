@@ -1,10 +1,7 @@
----
-author:
-- Ali Hamza $|$ Maham Shoaib $|$ Hassan Naseem
-title: '**MATH 300 Final Project**'
----
+# MATH 300 Final Project
+#### Ali Hamza | Maham Shoaib | Hassan Naseem
 
-\maketitle
+
 Tasks
 =====
 
@@ -16,7 +13,7 @@ $task1(steps,start,leftprob,stopprob)$. The function takes steps using
 an algorithm that makes use of an algorithm that can be explained using
 the following diagram.
 
-![image](task1prob.png)
+![alt text](https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task1prob.png)
 
 Let us assume
 
@@ -73,8 +70,8 @@ Task 8
 
 Bibliography
 ============
-
 1.  <https://www.mathworks.com/help/matlab/math/multidimensional-arrays.html>
+2.  <https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.html>
 
 Extras
 ======
