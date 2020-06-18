@@ -19,10 +19,10 @@ function plottxy = task58(steps, startx, starty)
         plottx(i) = sumx;
         plotty(i) = sumy;
     end
-%     
+    
 %     figure (1);
-%     c = plot(plottx, plotty, '-rx');
-%     set(c, 'color', 'red');
+%     c = plot(plottx, plotty, '-rx', 'Color', [rand, rand, ran]);
+%     
 %     grid on;
 %     numm = num2str(num);
 %     str1 = 'person doing randomwalk in 2 dimension (n = ';
@@ -32,7 +32,7 @@ function plottxy = task58(steps, startx, starty)
 %     ylabel('y-axis');
 %     zlabel('time');
 %     title(result);
-   
+%    
     plotxy = zeros(2, steps);
     plottxy(1, :) = plottx;
     plottxy(2, :) = plotty; 
