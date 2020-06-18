@@ -74,7 +74,7 @@ into the region. The trajectory is then plotted on a 3 dimensional
 plane.This can be seen in the following graph where the region is being exceeded and a curved outline can be seen, showcasing the polar movement of the particle.
 
 <p align="center">
-  <img src="https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task3bounceback.png">
+  <img src="https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report\task3bounce.png">
 </p>
 Task 4
 ------
