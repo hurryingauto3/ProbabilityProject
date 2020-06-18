@@ -47,7 +47,7 @@ function task3(steps, startx, starty, prob_nostep, prob_halfstep, prob_left, pro
     set(c, 'color', 'red');
     grid on;
     numm = num2str(num);
-    str1 = 'person doing randomwalk in 2 dimension (n = ';
+    str1 = 'Discrete Random Walk in 2 dimension (n = ';
     str2 = ' steps)';
     result = [str1 numm str2];
     xlabel('x-axis');

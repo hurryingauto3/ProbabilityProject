@@ -1,4 +1,4 @@
-function mahamtask5(steps, startx, starty)
+function task5(steps, startx, starty)
     num = steps;
     sumx = startx;
     sumy = starty;
