@@ -19,19 +19,19 @@ function plottxy = task58(steps, startx, starty)
         plottx(i) = sumx;
         plotty(i) = sumy;
     end
-    
-    figure (1);
-    c = plot(plottx, plotty, '-rx');
-    set(c, 'color', 'red');
-    grid on;
-    numm = num2str(num);
-    str1 = 'person doing randomwalk in 2 dimension (n = ';
-    str2 = ' steps)';
-    result = [str1 numm str2];
-    xlabel('x-axis');
-    ylabel('y-axis');
-    zlabel('time');
-    title(result);
+%     
+%     figure (1);
+%     c = plot(plottx, plotty, '-rx');
+%     set(c, 'color', 'red');
+%     grid on;
+%     numm = num2str(num);
+%     str1 = 'person doing randomwalk in 2 dimension (n = ';
+%     str2 = ' steps)';
+%     result = [str1 numm str2];
+%     xlabel('x-axis');
+%     ylabel('y-axis');
+%     zlabel('time');
+%     title(result);
    
     plotxy = zeros(2, steps);
     plottxy(1, :) = plottx;

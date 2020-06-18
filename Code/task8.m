@@ -1,14 +1,14 @@
 
-function avg_step = task8
+function avg_step = task8(sim, steps, a_x, a_y, b_x, b_y)
 
-    nums = 100;
-    steps = 1000;
+    nums = sim;
+    steps = steps;
     particles1 = zeros(2, steps, nums);
     particles2 = zeros(2, steps, nums);
 
     for i = 1:nums
-        particle1(:,:,i) = task58(steps, 0, 0);
-        particle2(:,:,i) = task58(steps, 10, 10);
+        particle1(:,:,i) = task58(steps, a_x, a_y);
+        particle2(:,:,i) = task58(steps, b_x, b_y);
     end
 
     step_arr = zeros(1, steps);
