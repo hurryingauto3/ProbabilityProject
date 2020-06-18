@@ -1,7 +1,7 @@
-<p align="center">
+<h align="center">
 # MATH 300 Final Project
 #### Ali Hamza | Maham Shoaib | Hassan Naseem
-</p>
+</h>
 
 Tasks
 =====
@@ -14,9 +14,9 @@ $task1(steps,start,leftprob,stopprob)$. The function takes steps using
 an algorithm that makes use of an algorithm that can be explained using
 the following diagram.
 
-<p align="center">
+<img align="center">
 ![alt text](https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task1prob.png)
-</p>
+</img>
 
 Let us assume
 
