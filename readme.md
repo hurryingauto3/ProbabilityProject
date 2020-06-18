@@ -65,7 +65,7 @@ to $\frac{\pi}{2}$, etc.\
 \
 We have used an algorithm similar to those used in the previous tasks to
 determine the probability of a step size and orientation being used. In
-the case of the particle exceeding the 100 $unit^{2}$ region, the
+the case of the particle exceeding the 100 <math>unit^{2}</math> region, the
 particle just reverses the direction that it was moving and bounces back
 into the region. The trajectory is then plotted on a 3 dimensional
 plane.
