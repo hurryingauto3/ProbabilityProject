@@ -13,7 +13,9 @@ $task1(steps,start,leftprob,stopprob)$. The function takes steps using
 an algorithm that makes use of an algorithm that can be explained using
 the following diagram.
 
-![alt text](https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task1prob.png)
+<p align="center">
+  <img src="https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report/task1prob.png">
+</p>
 
 
 Let us assume
