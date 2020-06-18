@@ -76,6 +76,7 @@ plane.This can be seen in the following graph where the region is being exceeded
 <p align="center">
   <img src="https://github.com/hurryingauto3/ProbabilityProject/blob/master/Report\task3bounce.png">
 </p>
+
 Task 4
 ------
 
