@@ -15,10 +15,10 @@ function plott = task1(steps, start, left_prob, no_step_prob)
         plott(i) = sum;
     end
     
-%     figure (1);
-%     c = plot(1:num, plott, '-rx');
-%     set(c, 'color', 'blue');
-%     grid on;
-%     title('random walk in 1 dimension')
-%     ylabel('steps');
+    %figure (1);
+    %c = plot(1:num, plott, '-rx');
+    %set(c, 'color', 'blue');
+    %grid on;
+    %title('random walk in 1 dimension')
+    %xlabel('steps');
 end
