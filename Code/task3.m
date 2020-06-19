@@ -20,7 +20,7 @@ function task3(steps, startx, starty, prob_nostep, prob_halfstep, prob_left, pro
         if step_direction(i) < prob_left
             sumx = sumx - step;
             if ((sumx-startx)^2 + (sumy-starty)^2)^(1/2) > 100
-                sumx = sumx + 2*step;
+                sumx = sumx + 2*step;   
             end
         elseif step_direction(i) < prob_left + prob_right
             sumx = sumx + step;
