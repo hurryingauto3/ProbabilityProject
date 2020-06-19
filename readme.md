@@ -28,14 +28,11 @@ Let us assume
 
 The algorithm simply checks if the randomly generated numbers
 $0\leq n \leq 1$ lies within a certain region and makes movement
-accordingly.\
+accordingly.
 \
-Running the algorithm on multiple steps the following graphs were
-obtained. To find the expected average distance at a certain step the we
-ran multiple simulations of the code and calculated an average step at
-each step. This rendered the following random walk that is made up of
-average steps. This is then an expected random walk.
-
+Running the algorithm on multiple steps the following graphs were obtained.
+To find the expected average distance at a certain step the we ran multiple simulations of the code and calculated an average step at each step. This rendered the following random walk that is made up of average steps. This is then an expected
+random walk. 
 Task 2
 ------
 
