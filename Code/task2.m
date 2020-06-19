@@ -37,7 +37,7 @@ function task2(steps, distance_apart, left_prob1, left_prob2, no_step_prob1, no_
     set(c, 'color', 'red');
     set(b, 'color', 'blue');
     grid on;
-    title('two people doing random walk in 1 dimension')
+    title('Two People doing random walk in 1 dimension')
     xlabel('steps');
     hold off;
 end

@@ -38,7 +38,11 @@ Running the algorithm on multiple steps the following graphs were obtained.
 To find the expected average distance at a certain step the we ran multiple simulations of the code and calculated an average step at each step. This rendered
 the following random walk that is made up of average steps. This is then an expected
 random walk. 
-%include graph here
+
+\begin{center}
+    \includegraphics[scale = 0.5]{r1d1000000.png}
+\end{center}
+
 
 \subsection{Task 2}
 In task 2 we took a similar approach as task 1. The only difference was that we simulated a random walk 
@@ -52,7 +56,17 @@ step was recorded into an array and the average was calculated to find an expect
 We also plotted the average random walks of the the two particles and the result of that was as follows:
 It is worth noting, however, that this graph is also subject to change based on different parameters. However, 
 it seems to be stable on multiple executions. There is some deviation though. 
-%Include graph here
+\begin{center}
+    \begin{multicols}{2}[\columnsep=1cm]
+        \centering
+        \includegraphics[scale=0.5]{1d2randwalk100.png}
+        \columnbreak
+        \includegraphics[scale=0.5]{1d2randwalk1000.png}
+        \end{multicols}
+        \captionof{figure}{2 Random Walks in 1D n = 100, 1000 with unequal probabilities}    
+\end{center}
+
+
 \subsection{Task 3}
 In order to determine the step size and the orientation, we assumed that the step size is a discreet random variable between {0, 0.5, 1} and orientation is a discreet random variable between {0, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$}. We have used directional words such as right referring to orientation of 0 as well as $2\pi$ and up referring to $\frac{\pi}{2}$, etc. 
 \\\\
