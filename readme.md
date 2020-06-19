@@ -103,6 +103,9 @@ of two particles and stored the data in a 3 dimensional array. Where we stored t
 Task 9 (Bonus)
 ------
 
+This task can be done by building upon the previously done random walk tasks. The idea is that since humans are being prescribed to practice social distancing. Task 8 can be used to extend this concept to find the average step at which with two particles (humans in this case) will be within a 6 unit radius of each other. Our simulation also takes into account the fact that there are multiple humans in a confined space at a certain time. This means the use of more than 2 nodes to find the average time it takes for multiple humans to come within  a 6 feet distance of each other. This can be a useful tool to predict the spread of the virus in populations and cities. A hypothesis we came up with during this task was to think about how the increase in the number of humans in a confined space will affect the expected step at which they are within 6 feet of each other. Obviously, our model has its limitations where it assumes the spread of the virus only happens to the entire population when all the particles are within 6 feet of each other. Our model also only assumes only one particle has the virus which is an obvious limitation.
+
+
 Bibliography
 ============
 1.  <https://www.mathworks.com/help/matlab/math/multidimensional-arrays.html>
