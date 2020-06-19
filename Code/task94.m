@@ -17,6 +17,7 @@ function avg_step = task93(sim, steps, a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y)
     step_arr = zeros(1, steps);
     % mean_step_arr = zeros(1, nums);
     
+    
 
     for i = 1:nums
         for j = 1:steps
