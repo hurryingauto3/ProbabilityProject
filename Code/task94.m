@@ -1,4 +1,4 @@
-function avg_step = task93(sim, steps, a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y)
+function avg_step = task94(sim, steps, a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y)
 
     nums = sim;
     steps = steps;

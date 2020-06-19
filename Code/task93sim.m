@@ -1,4 +1,4 @@
-function task8sim(sim,sim_internal, steps,a_x, a_y, b_x, b_y)
+function task93sim(sim,sim_internal, steps,a_x, a_y, b_x, b_y, c_x, c_y)
 
     num = sim;
     mean_step_arr = zeros(1, num);
@@ -14,7 +14,7 @@ function task8sim(sim,sim_internal, steps,a_x, a_y, b_x, b_y)
     euc_dist = num2str(euc_dist);
     
     xlabel('Simulation Number');
-    ylabel('Mean of Step at which 2 Particles are within 1 unit of distance');
+    ylabel('Mean of Step at which 3 Particles are within 1 unit of distance');
     mean_mean = num2str(mean_mean);
     str1 = 'Expected Steps of Proximity When Starting from a Distance of ';
     str2 = ' with a deviation of ';
