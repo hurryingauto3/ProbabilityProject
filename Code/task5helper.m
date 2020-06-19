@@ -1,4 +1,4 @@
-function plottxy = task58(steps, startx, starty)
+function plottxy = task5helper(steps, startx, starty)
     num = steps;
     sumx = startx;
     sumy = starty;

@@ -7,8 +7,8 @@ function avg_step = task8(sim, steps, a_x, a_y, b_x, b_y)
     particles2 = zeros(2, steps, nums);
 
     for i = 1:nums
-        particle1(:,:,i) = task58(steps, a_x, a_y);
-        particle2(:,:,i) = task58(steps, b_x, b_y);
+        particle1(:,:,i) = task5helper(steps, a_x, a_y);
+        particle2(:,:,i) = task5helper(steps, b_x, b_y);
     end
 
     step_arr = zeros(1, steps);
