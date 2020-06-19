@@ -21,11 +21,17 @@ function avg_step = task93(sim, steps, a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y)
 
     for i = 1:nums
         for j = 1:steps
-            if ((particle4(1,j,i)-particle3(1,j,i))^2 +(particle4(2,j,i)-particle3(2,j,i)^2))^(1/2) > 6 && ((particle4(1,j,i)-particle2(1,j,i))^2 +(particle4(2,j,i)-particle2(2,j,i)^2))^(1/2) > 6 && ((particle4(1,j,i)-particle1(1,j,i))^2 +(particle4(2,j,i)-particle1(2,j,i)^2))^(1/2) > 6 && ((particle3(1,j,i)-particle2(1,j,i))^2 +(particle3(2,j,i)-particle2(2,j,i)^2))^(1/2) > 6 && ((particle3(1,j,i)-particle1(1,j,i))^2 +(particle3(2,j,i)-particle1(2,j,i)^2))^(1/2) > 6 && ((particle2(1,j,i)-particle1(1,j,i))^2 +(particle2(2,j,i)-particle1(2,j,i)^2))^(1/2) > 6  
+            a = [particles1(1,j,i), particles1(2,j,i)];
+            b = [particles2(1,j,i), particles2(2,j,i)];
+            c = [particles3(1,j,i), particles3(1,j,i)];
+            d = [particles4(1,j,i), particles4(1,j,i)];
+
+            if norm(a-b) <= 6 && norm(a-c) <=6 && norm(a-d) <=6 && norm(b-c) <=6 && norm(b-d) <= 6 && norm(c-d) <=6
+            
                 step_arr(i) = j;
+            
             end
         end
-
     end
     
 
